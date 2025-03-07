@@ -1,6 +1,5 @@
-package org.example;
-
 public class Thermometer {
+
     private int temperatur;
     private int akkustand;
     private int ID;
@@ -13,7 +12,7 @@ public class Thermometer {
         return akkustand;
     }
 
-    public int getId() {
+    public int getID() {
         return ID;
     }
 }
